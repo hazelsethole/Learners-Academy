@@ -1,0 +1,88 @@
+/* Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Wrapper Styles */
+#wrapper {
+    text-align: center;
+}
+
+/* Header Styles */
+#header {
+    background: #333;
+    padding: 15px;
+    color: white;
+}
+
+/* Sidebar Styles */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #555; /* White text */
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: #555;
+}
+
+/* Page Styles */
+#page {
+    margin-left: 200px; /* Adjust according to the width of the sidebar */
+}
+
+/* Logo Styles */
+#logo {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background: #333;
+}
+
+/* Bar Item Styles */
+.bar-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background: #f5f5f5;
+}
